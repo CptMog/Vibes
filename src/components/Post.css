@@ -1,0 +1,48 @@
+.container-post{
+    margin-top: 18px;
+    width: 440px;
+    border: 1px solid rgb(219,219,219);
+    background-color: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.post-profile-state-bulle{
+    margin:11px 25px ;
+    width:40px;
+    height: 40px;
+    border: 1px solid rgb(219,219,219);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.post-profile-state-bulle span{
+    position: relative;
+    left:50px;
+    bottom: 28px;
+}
+
+.post-profile-bulle{
+    margin: 0 auto;
+    position: relative;
+    top:5%;
+    width:85%;
+    border-radius: 50%;
+    height: 85%;
+    background-color: #fff;
+    border: 1px solid rgb(219,219,219);
+}
+
+.post-content{
+    border-top: 1px solid rgb(219,219,219);
+    border-bottom: 1px solid rgb(219,219,219);
+    overflow: hidden;
+    background-color: black;
+    height:520px;
+    display: flex;
+    justify-content: center;
+}

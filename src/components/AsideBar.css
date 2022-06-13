@@ -1,0 +1,56 @@
+.container-aside{
+width: 55%;
+}
+
+#usericon{
+    font-size: 60px;
+    color: lightgray;
+}
+
+.container-aside-usericone{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 18px;
+    
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 15px;
+}
+
+#info span:nth-child(2){
+    color: gray;
+}
+
+.container-aside-usericone-info{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 20px;
+   color: #0095f6;
+   width: 100%;
+   font-size: 13px;
+   /* width: 40%; */
+}
+
+/* Suggestion part */
+
+.container-aside-suggestion-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-aside-suggestion-all span:first-child{
+    color: gray;
+    /* font-weight: bold; */
+    font-size: 14px;
+}
+
+.container-aside-suggestion-all span:nth-child(2){
+    font-size: 12px;
+}

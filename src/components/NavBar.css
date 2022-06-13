@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+.navigator{
+    border-bottom: 1px solid rgb(219,219,219);
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index:1;
+}
+
+#logo{
+    font-family: 'Seaweed Script', cursive;
+    font-size: 28px;
+
+}
+
+.container-1{
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigator-container-1-navigation, .navigator-container-1-navigation nav ul{
+    display: flex;
+
+}
+
+.navigator-container-1-navigation{
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+}
+
+.navigator-container-1-navigation nav ul li{
+    list-style: none;
+    padding: 0px 12px;
+    font-size: 22px;
+}
+
+.search-bloc, #search_bar{
+    background-color: #EFEFEF;
+    color: #949494;
+}
+
+#search_bar{
+    padding: 5px;
+    border:none;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#search_bar:focus{
+    outline: none;
+}
+
+.search-bloc{
+    padding: 6px 38px 6px 20px;
+    border-radius: 8px;
+}
+
