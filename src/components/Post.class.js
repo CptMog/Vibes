@@ -1,4 +1,4 @@
-import "./Post.css";
+import "./../styles/Post.css";
 function Post(props){
     return(
         <div className="container-post">

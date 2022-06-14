@@ -1,4 +1,4 @@
-import "./SlideBulle.css";
+import "./../styles/SlideBulle.css";
 function SlideBulle(){
     return (
         <div className="container-bulle">

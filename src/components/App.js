@@ -1,8 +1,8 @@
-import NavBar from './components/NavBar.class.js';
-import SlideBulle from './components/SlideBulle.class.js';
-import Post from './components/Post.class.js';
-import AsideBar from './components/AsideBar.class.js';
-import "./App.css";
+import NavBar from './NavBar.class.js';
+import SlideBulle from './SlideBulle.class.js';
+import Post from './Post.class.js';
+import AsideBar from './AsideBar.class.js';
+import "./../styles/App.css";
 import React from 'react';
 function App() {
   return (

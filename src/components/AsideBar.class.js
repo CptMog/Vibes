@@ -1,4 +1,4 @@
-import "./AsideBar.css";
+import "./../styles/AsideBar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 function AsideBar(){
