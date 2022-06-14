@@ -25,7 +25,7 @@ function NavBar(){
                             <li><FontAwesomeIcon icon={faPlusSquare} /></li>
                             <li><FontAwesomeIcon icon={faCompass} /></li>
                             <li><FontAwesomeIcon icon={faHeart} /></li>
-                            <li><FontAwesomeIcon icon={faUserCircle} /></li>
+                            <li><FontAwesomeIcon icon={faUserCircle} id="user-icon" /></li>
                         </ul>
                     </nav>
                 </div>
