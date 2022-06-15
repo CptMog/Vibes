@@ -1,10 +1,10 @@
 .container-bulle{
     margin-top: 70px;
     background-color: #fff;
-    width: 390px;
+    width: 400px;
     border-radius: 10px;
     border: 1px solid rgb(219,219,219);
-    padding: 25px;
+    padding: 22px;
 }
 
 .state-bulle{
@@ -19,7 +19,7 @@
 
 .state-bulle span{
     position: relative;
-    top:9px;
+    top:5px;
     font-size: 14px;
 }
 

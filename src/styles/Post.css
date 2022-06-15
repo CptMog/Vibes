@@ -1,6 +1,6 @@
 .container-post{
     margin-top: 18px;
-    width: 440px;
+    width: 450px;
     border: 1px solid rgb(219,219,219);
     background-color: #fff;
     border-radius: 10px 10px 0px 0px;
@@ -10,20 +10,38 @@ img{
     max-width: 100%;
 }
 
-
 .post-profile-state-bulle{
-    margin:11px 25px ;
+    position: relative;
+    left:10px;
+    top:11px;
     width:40px;
     height: 40px;
     border: 1px solid rgb(219,219,219);
     border-radius: 50%;
     text-align: center;
+    
 }
 
-.post-profile-state-bulle span{
+.post-profile-infos span:nth-child(2){
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.post-profile-infos{
     position: relative;
-    left:50px;
-    bottom: 28px;
+    /* border:1px solid black; */
+    bottom:18px;
+    left:60px;
+    font-size: 14px;
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#post-settings{
+    font-size: 14px;
 }
 
 .post-profile-bulle{
@@ -42,7 +60,25 @@ img{
     border-bottom: 1px solid rgb(219,219,219);
     overflow: hidden;
     background-color: black;
-    height:520px;
+    height:540px;
     display: flex;
     justify-content: center;
+}
+
+.post-profile-socials{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-profile-socials div:first-child *{
+    font-size: 24px;
+    margin: 4px 14px 4px 5px;    
+}
+
+.post-profile-socials div:nth-child(2) *{
+    font-size: 24px;
+    margin-right: 5px;
 }
