@@ -13,7 +13,7 @@ function App() {
           <div className='container-L'>
             <SlideBulle/>
             <Post name={'tomLl'} img={'https://picsum.photos/200/300?random=2'} />
-            <Post name={'anna_wiz'}img={'https://picsum.photos/200/301'} />
+            <Post name={'anna_wiz'}img={'https://picsum.photos/200/301?random=3'} />
           </div>
           <div className='container-R'>
             <AsideBar />
